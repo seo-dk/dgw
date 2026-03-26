@@ -1,0 +1,141 @@
+==== [1] worker local check ====
+Tue Mar 24 16:58:19 KST 2026
+gw-ha-001-01
+samson
+[worker] hdfs -test -d
+2026-03-24 16:58:41,077 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 0 time(s); maxRetries=45
+2026-03-24 16:59:01,098 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 1 time(s); maxRetries=45
+2026-03-24 16:59:21,118 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 2 time(s); maxRetries=45
+2026-03-24 16:59:41,139 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 3 time(s); maxRetries=45
+2026-03-24 17:00:01,159 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 4 time(s); maxRetries=45
+2026-03-24 17:00:21,174 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 5 time(s); maxRetries=45
+2026-03-24 17:00:41,195 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 6 time(s); maxRetries=45
+2026-03-24 17:01:01,208 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 7 time(s); maxRetries=45
+2026-03-24 17:01:21,228 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 8 time(s); maxRetries=45
+2026-03-24 17:01:41,249 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 9 time(s); maxRetries=45
+2026-03-24 17:02:01,270 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 10 time(s); maxRetries=45
+2026-03-24 17:02:21,290 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 11 time(s); maxRetries=45
+2026-03-24 17:02:41,311 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 12 time(s); maxRetries=45
+2026-03-24 17:03:01,325 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 13 time(s); maxRetries=45
+2026-03-24 17:03:21,346 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 14 time(s); maxRetries=45
+2026-03-24 17:03:41,347 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 15 time(s); maxRetries=45
+2026-03-24 17:04:01,368 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 16 time(s); maxRetries=45
+2026-03-24 17:04:21,388 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 17 time(s); maxRetries=45
+2026-03-24 17:04:41,400 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 18 time(s); maxRetries=45
+2026-03-24 17:05:01,420 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 19 time(s); maxRetries=45
+2026-03-24 17:05:21,423 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 20 time(s); maxRetries=45
+2026-03-24 17:05:41,444 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 21 time(s); maxRetries=45
+2026-03-24 17:06:01,458 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 22 time(s); maxRetries=45
+2026-03-24 17:06:21,479 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 23 time(s); maxRetries=45
+2026-03-24 17:06:41,486 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 24 time(s); maxRetries=45
+2026-03-24 17:07:01,506 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 25 time(s); maxRetries=45
+2026-03-24 17:07:21,521 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 26 time(s); maxRetries=45
+2026-03-24 17:07:41,542 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 27 time(s); maxRetries=45
+2026-03-24 17:08:01,562 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 28 time(s); maxRetries=45
+2026-03-24 17:08:21,583 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 29 time(s); maxRetries=45
+2026-03-24 17:08:41,603 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 30 time(s); maxRetries=45
+2026-03-24 17:09:01,614 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 31 time(s); maxRetries=45
+2026-03-24 17:09:21,635 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 32 time(s); maxRetries=45
+2026-03-24 17:09:41,654 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 33 time(s); maxRetries=45
+2026-03-24 17:10:01,655 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 34 time(s); maxRetries=45
+2026-03-24 17:10:21,663 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 35 time(s); maxRetries=45
+2026-03-24 17:10:41,684 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 36 time(s); maxRetries=45
+2026-03-24 17:11:01,700 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 37 time(s); maxRetries=45
+2026-03-24 17:11:21,702 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 38 time(s); maxRetries=45
+2026-03-24 17:11:41,718 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 39 time(s); maxRetries=45
+2026-03-24 17:12:01,738 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 40 time(s); maxRetries=45
+2026-03-24 17:12:21,739 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 41 time(s); maxRetries=45
+2026-03-24 17:12:41,751 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 42 time(s); maxRetries=45
+2026-03-24 17:13:01,752 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 43 time(s); maxRetries=45
+2026-03-24 17:13:21,772 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 44 time(s); maxRetries=45
+test: Interrupted
+RC:130
+[worker] hdfs -ls
+2026-03-24 17:14:03,624 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 0 time(s); maxRetries=45
+2026-03-24 17:14:23,645 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 1 time(s); maxRetries=45
+2026-03-24 17:14:43,666 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 2 time(s); maxRetries=45
+2026-03-24 17:15:03,679 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 3 time(s); maxRetries=45
+2026-03-24 17:15:23,692 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 4 time(s); maxRetries=45
+2026-03-24 17:15:43,694 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 5 time(s); maxRetries=45
+2026-03-24 17:16:03,715 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 6 time(s); maxRetries=45
+2026-03-24 17:16:23,716 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 7 time(s); maxRetries=45
+2026-03-24 17:16:43,728 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 8 time(s); maxRetries=45
+2026-03-24 17:17:03,748 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 9 time(s); maxRetries=45
+2026-03-24 17:17:23,769 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 10 time(s); maxRetries=45
+2026-03-24 17:17:43,790 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 11 time(s); maxRetries=45
+2026-03-24 17:18:03,790 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 12 time(s); maxRetries=45
+2026-03-24 17:18:23,791 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 13 time(s); maxRetries=45
+2026-03-24 17:18:43,800 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 14 time(s); maxRetries=45
+2026-03-24 17:19:03,805 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 15 time(s); maxRetries=45
+2026-03-24 17:19:23,825 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 16 time(s); maxRetries=45
+2026-03-24 17:19:43,846 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 17 time(s); maxRetries=45
+2026-03-24 17:20:03,850 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 18 time(s); maxRetries=45
+2026-03-24 17:20:23,860 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 19 time(s); maxRetries=45
+2026-03-24 17:20:43,872 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 20 time(s); maxRetries=45
+2026-03-24 17:21:03,888 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 21 time(s); maxRetries=45
+2026-03-24 17:21:23,897 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 22 time(s); maxRetries=45
+2026-03-24 17:21:43,916 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 23 time(s); maxRetries=45
+2026-03-24 17:22:03,931 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 24 time(s); maxRetries=45
+2026-03-24 17:22:23,951 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 25 time(s); maxRetries=45
+2026-03-24 17:22:43,954 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 26 time(s); maxRetries=45
+2026-03-24 17:23:03,957 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 27 time(s); maxRetries=45
+2026-03-24 17:23:23,964 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 28 time(s); maxRetries=45
+2026-03-24 17:23:43,985 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 29 time(s); maxRetries=45
+2026-03-24 17:24:03,997 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 30 time(s); maxRetries=45
+2026-03-24 17:24:24,017 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 31 time(s); maxRetries=45
+2026-03-24 17:24:44,037 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 32 time(s); maxRetries=45
+2026-03-24 17:25:04,057 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 33 time(s); maxRetries=45
+2026-03-24 17:25:24,059 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 34 time(s); maxRetries=45
+2026-03-24 17:25:44,060 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 35 time(s); maxRetries=45
+2026-03-24 17:26:04,062 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 36 time(s); maxRetries=45
+2026-03-24 17:26:24,067 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 37 time(s); maxRetries=45
+2026-03-24 17:26:44,085 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 38 time(s); maxRetries=45
+2026-03-24 17:27:04,106 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 39 time(s); maxRetries=45
+2026-03-24 17:27:24,108 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 40 time(s); maxRetries=45
+2026-03-24 17:27:44,109 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 41 time(s); maxRetries=45
+2026-03-24 17:28:04,112 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 42 time(s); maxRetries=45
+2026-03-24 17:28:24,119 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 43 time(s); maxRetries=45
+2026-03-24 17:28:44,139 INFO ipc.Client: Retrying connect to server: 90.90.43.21/90.90.43.21:8020. Already tried 44 time(s); maxRetries=45
+ls: Interrupted
+RC:130
+
+==== [2] ssh to spark_server_info check ====
+|-warning---------------------------------------------------------|
+| This system is for the use of authorized users only.            |
+| Individuals using this computer system without authority, or in |
+| excess of their authority, are subject to having all of their   |
+| activities on this system monitored and recorded by system      |
+| personnel.                                                      |
+|                                                                 |
+| In the course of monitoring individuals improperly using this   |
+| system, or in the course of system maintenance, the activities  |
+| of authorized users may also be monitored.                      |
+|                                                                 |
+| Anyone using this system expressly consents to such monitoring  |
+| and is advised that if such monitoring reveals possible         |
+| evidence of criminal activity, system personnel may provide the |
+| evidence of such monitoring to law enforcement officials.       |
+|-----------------------------------------------------------------|
+
+Tue Mar 24 17:29:04 KST 2026
+tg-p-dw-app-001-01
+hadoop
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/idp/1.0.0/hadoop/hadoop-3.2.4/share/hadoop/common/lib/slf4j-reload4j-1.7.35.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/idp/1.0.0/tez/tez-0.10.1/lib/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Reload4jLoggerFactory]
+RC:0
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/idp/1.0.0/hadoop/hadoop-3.2.4/share/hadoop/common/lib/slf4j-reload4j-1.7.35.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/usr/idp/1.0.0/tez/tez-0.10.1/lib/slf4j-log4j12-1.7.30.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.slf4j.impl.Reload4jLoggerFactory]
+LS_RC:0
+
+==== [3] network port check (optional) ====
+Ncat: Version 7.50 ( https://nmap.org/ncat )
+Ncat: Connection timed out.
+Ncat: Version 7.50 ( https://nmap.org/ncat )
+Ncat: Connection timed out.
+==== done ====
