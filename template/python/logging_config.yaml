@@ -1,0 +1,36 @@
+version: 1
+formatters:
+  simple:
+    format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+
+handlers:
+  fileHandler:
+    class: logging.handlers.RotatingFileHandler
+    formatter: simple
+    filename: 'TEMP_LOG_FILE'
+    maxBytes: 10485760
+    backupCount: 5
+    level: INFO
+    mode: 'a'
+
+  consoleHandler:
+    class: logging.StreamHandler
+    formatter: simple
+    level: INFO
+
+
+loggers:
+  deploy_dag: &logger_settings  
+    handlers: [fileHandler, consoleHandler]
+    level: INFO
+    propagate: false
+
+  deploy_dag_test:
+      <<: *logger_settings
+
+  gen_dag:
+      <<: *logger_settings
+
+  paramiko.transport:
+      <<: *logger_settings
+

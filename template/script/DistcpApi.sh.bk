@@ -1,0 +1,26 @@
+
+DAG_ID="distcp_test_tpani"
+URL="http://90.90.47.121:9090/api/v1/dags/${DAG_ID}/dagRuns"
+USER="samson"
+PASSWORD="shfkd2023^_"
+
+create_post_data()
+{
+	cat << EOF
+{
+        "conf":{
+                "interface_id":"IF-TEST-DISTCP-001",
+                "source_path":"/user/samson/hive/samson_biz/user_traffic_base_1h",
+                "destination_path":"/idcube_out/distcp/samson_biz/user_traffic_base_1h",
+		"collect_source_seq":"3185",
+                "partitions":{
+                        "dt":"20230712",
+                        "hh":"00",
+			"nw":"4g"
+                }
+        }
+}
+EOF
+}
+
+curl -X POST $URL -H "Content-Type: application/json" --user "${USER}:${PASSWORD}" -d "$(create_post_data)"
